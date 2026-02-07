@@ -99,8 +99,8 @@ button.cta {
     justify-content: center;
     font-size: 32px;
     font-weight: 600;
-    padding-bottom: 35px;
-    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-top: 70px;
 }
 
 .prd-img {
@@ -124,6 +124,33 @@ button.cta {
 }
 
 .quote {
-    height: 400px;
     background-color: #e5e7eb;
+    margin: 100px auto;
+    padding: 70px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p.quote-txt {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote-txt {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.quote-author {
+    padding-left: 550px;
+    font-size: 1.25em;
+    font-weight: 700;
 }

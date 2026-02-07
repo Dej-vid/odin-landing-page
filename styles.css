@@ -122,3 +122,8 @@ button.cta {
     justify-content: space-evenly;
     padding-top: 30px;
 }
+
+.quote {
+    height: 400px;
+    background-color: #e5e7eb;
+}

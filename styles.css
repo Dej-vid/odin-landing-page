@@ -23,6 +23,11 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .logo, .main-hero {
     color: #f9faf8;
     font-weight: 900;
@@ -108,11 +113,10 @@ button.cta {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .prd-txt {
-    width: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

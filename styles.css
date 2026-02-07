@@ -79,3 +79,42 @@ button.cta {
 .left-content {
     width: 400px;
 }
+
+.product-section {
+    width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.prd-img {
+    border: 2px lightseagreen solid;
+    border-radius: 50%;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.prd-txt {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}

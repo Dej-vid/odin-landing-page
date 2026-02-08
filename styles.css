@@ -190,3 +190,13 @@ p.cta-hero {
     border: 2px white solid;
     border-radius: 10px;
 }
+
+footer {
+    background-color: #1f2937;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
